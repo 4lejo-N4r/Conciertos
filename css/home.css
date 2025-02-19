@@ -241,7 +241,7 @@ body{
 .prices{
     z-index: -1;
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     gap: 5%;    
     margin-top: 70px;
     margin-left: 4%;
@@ -358,3 +358,60 @@ body{
 .span_fin h1{
     color: var(--color-9);
 }
+
+
+.botton{
+    position: absolute;
+    margin-top: 65%;
+    padding-right: 1px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.botton img{
+    padding: 8px;
+}
+.botton h2{
+    padding-left: 10px;
+    font-family: "inter";
+    font-size: 10px;
+
+}
+.botton h3{
+    padding-left: 30px;
+    font-family: "inter-regular";
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+.botton h1{
+    padding-left: 30px;
+    font-family: "inter";
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.location2{  
+    /* background-color: wheat; */
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 28px;
+    top: 145px;
+}
+.calender2{  
+    /* background-color: wheat; */
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 28px;
+    top: 167px;
+}
+.etiquete2{  
+    /* background-color: wheat; */
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 30px;
+    top: 195px;
+}
+
