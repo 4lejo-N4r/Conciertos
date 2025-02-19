@@ -238,36 +238,123 @@ body{
 }
 
 
-.price-container{
-    display: flex;
-    flex-direction: column;
-    margin-top: 18%;
-    margin-left: 5%;
-}
-
-.price-item{
+.prices{
+    z-index: -1;
     display: flex;
     flex-direction: row;
-    gap: 15%;
+    gap: 5%;    
+    margin-top: 70px;
+    margin-left: 4%;
+    margin-bottom: 40px;
+    border: 1px;
+
+}
+.left{
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+
+}
+.right img{
+    padding: 8px;
+}
+.left h2{
+    padding-left: 10px;
+    font-family: "inter";
+    font-size: 10px;
+
+}
+.left h3{
+    padding-left: 30px;
+    font-family: "inter-regular";
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+.left h1{
+    padding-left: 30px;
+    font-family: "inter";
+    font-size: 15px;
+    padding-bottom: 10px;
 }
 
-
-.img1{
-    display: flex;
-    width: 100%;
-    height: 100%;
-    align-content: center;
-    justify-content: center;
-    background-color: white;
-    padding-bottom: 35%;
+.left{
+    padding: 8px;
 }
 
-.img2{
+.right{
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.right img{
+    padding: 8px;
+}
+.right h2{
+    padding-left: 10px;
+    font-family: "inter";
+    font-size: 10px;
+
+}
+.right h3{
+    padding-left: 30px;
+    font-family: "inter-regular";
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+.right h1{
+    padding-left: 30px;
+    font-family: "inter";
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.location{  
+    /* background-color: wheat; */
     display: flex;
-    width: 100%;
-    height: 100%;
-    align-content: center;
-    justify-content: center;
-    background-color: white;
-    padding-bottom: 35%;
+    flex-direction: column;
+    position: absolute;
+    width: 28px;
+    top: 760px;
+}
+.calender{  
+    /* background-color: wheat; */
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 28px;
+    top: 780px;
+}
+.etiquete{  
+    /* background-color: wheat; */
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 30px;
+    top: 810px;
+}
+
+.location1{  
+    /* background-color: wheat; */
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 760px;
+}
+.calender1{  
+    /* background-color: wheat; */
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 780px;
+}
+.etiquete1{  
+    /* background-color: wheat; */
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 810px;
+}
+
+.span_fin h1{
+    color: var(--color-9);
 }
