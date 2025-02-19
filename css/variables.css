@@ -21,3 +21,8 @@
     font-family: "inter-regular";
     src: url(/storage/fonts/Inter/Inter_24pt-Regular.ttf);
 }
+
+@font-face {
+    font-family: "inter-medium";
+    src: url(/storage/fonts/Inter/Inter_18pt-Medium.ttf);
+}
