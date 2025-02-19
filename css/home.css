@@ -1,0 +1,273 @@
+@import url(/css/variables.css);
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: var(--color-3);
+}
+
+.banner{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    gap: 78%;
+    /* background-color: green ; */
+}
+
+.title_home{
+    font-size: 110%;
+    font-family: "inter";
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    margin-left: 5%;
+    /* background-color: violet; */
+    /* flex-direction: column; */
+}
+
+.a{
+    display: flex;
+    color: var(--color-1);
+    margin-bottom: -4%;
+    /* background-color: blue; */
+    height: 35px;
+}
+
+.b{
+    display: flex;
+    color: var(--color-2);
+    /* position: relative; */
+    /* background-color: turquoise; */
+
+}
+
+.search{
+    /* background-color: blue; */
+    margin-top: 2%;
+    display: flex;
+    margin-left: 5%;
+    width: 90%;
+    height: 45px;
+    z-index: -1;
+}
+
+.search input{
+    /* background-color: cornflowerblue; */
+    width: 100%;
+    border-radius: 10px;
+    border-style: none;
+    z-index: -1;
+    /* background-color: white; */
+}
+
+.Stext{
+    display: flex;
+    position: relative;
+    margin-top: -10%;
+    margin-bottom: 10%;
+    left: 12%;
+    font-family: "inter-regular";;
+    /* background-color: blue; */
+    height: 40px;
+    width: 40%;
+    justify-content: center;
+    z-index: 1;
+}
+
+.srh{
+    position: relative;
+    margin-top: -9%;
+    left: 8%;
+    /* background-color: aqua; */
+    width: 5%;
+}
+
+.filt{
+    position: relative;
+    margin-top: -16.5%;
+    margin-bottom: 10%;
+    left: 85%;
+    width: 5%;
+    /* background-color: brown; */
+}
+
+.carousel_container{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+
+.carousel{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.carousel_container{
+    display: flex;
+    flex-direction: row;
+    gap: 0%;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.carousel-item4{
+    flex: 0 0 auto;
+    border-style: none;
+    margin: 10px;
+    width: 77px;
+    height: 30px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-family: "inter-regular";
+    background-color: var(--color-7);
+}
+
+.carousel-item4 p{
+    padding-left: 13%;
+}
+
+.carousel-item1{
+    flex: 0 0 auto;
+    border-style: none;
+    margin: 10px;
+    width: 150px;
+    height: 30px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-family: "inter-regular";
+    background-color: var(--color-4);
+}
+
+.carousel-item1 p{
+    padding-left: 13%;
+}
+
+.carousel-item2{
+    flex: 0 0 auto;
+    border-style: none;
+    margin: 10px;
+    width: 100px;
+    height: 30px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-family: "inter-regular";
+    background-color: var(--color-5);
+}
+
+.carousel-item2 p{
+    padding-left: 13%;
+}
+
+.carousel-item3{
+    flex: 0 0 auto;
+    border-style: none;
+    margin: 10px;
+    width: 150px;
+    height: 30px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-family: "inter-regular";
+    background-color: var(--color-6);
+}
+
+.carousel-item3 p{
+    padding-left: 13%;
+}
+
+
+
+.C-text{
+    /* background-color: bisque; */
+    position: absolute;
+    margin-left: 5%;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    gap: 47%;
+}
+
+.aa{
+    font-family: "inter";
+}
+
+.bb{
+    font-family: "inter-regular";
+    color: var(--color-8);
+}
+
+.info-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 12%;
+    margin-left: 5%;
+    gap: 2%;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.C2-text{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    gap: 47%;
+}
+
+.aaa{
+    font-family: "inter";
+}
+
+.bbb{
+    font-family: "inter-regular";
+    color: var(--color-8);
+}
+
+
+.price-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 18%;
+    margin-left: 5%;
+}
+
+.price-item{
+    display: flex;
+    flex-direction: row;
+    gap: 15%;
+}
+
+
+.img1{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-content: center;
+    justify-content: center;
+    background-color: white;
+    padding-bottom: 35%;
+}
+
+.img2{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-content: center;
+    justify-content: center;
+    background-color: white;
+    padding-bottom: 35%;
+}
